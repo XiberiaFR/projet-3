@@ -1,7 +1,7 @@
 {
-  "name": "sass-premiere",
+  "name": "projet-3",
   "version": "1.0.0",
-  "description": "Joe Blow's portfolio",
+  "description": "Ohmyfood! - Les menus des meilleurs restaurants",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gerkx/maintainable-css-with-sass.git"
+    "url": "git+https://github.com/XiberiaFR/projet-3"
   },
-  "author": "gerkx",
+  "author": "xiberia",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gerkx/maintainable-css-with-sass/issues"

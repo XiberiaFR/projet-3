@@ -12,12 +12,12 @@ html {
 
 body {
   box-sizing: border-box;
-  background: #ff0000;
+  background: #FCCA46;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #15DEA5;
+  color: #569B87;
   font-size: 2rem;
   font-weight: 100;
   line-height: 1.7;
@@ -45,13 +45,13 @@ button {
 
 .btn {
   padding: 1.5rem;
-  border: 0.1rem solid #15DEA5;
-  color: #15DEA5;
-  background: #ff0000;
+  border: 0.1rem solid #569B87;
+  color: #569B87;
+  background: #FCCA46;
   cursor: pointer;
 }
 .btn:hover {
-  background: #15DEA5;
+  background: #569B87;
   color: #D6FFF5;
 }
 .btn--full-width {
@@ -60,18 +60,17 @@ button {
 }
 
 .header {
-  background: #15DEA5;
+  background: #569B87;
   height: 10rem;
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   width: 100%;
 }
 .header__logo {
   font-size: 7rem;
-  color: #ff0000;
+  color: #FCCA46;
   margin-left: 10rem;
-  text-shadow: 0.56rem 0.56rem #fff;
 }
 
 .nav {
@@ -89,11 +88,11 @@ button {
   color: #D6FFF5;
 }
 .nav__link--active {
-  color: #ff0000;
+  color: #FCCA46;
 }
 .nav__link--active:hover {
   cursor: default;
-  color: #ff0000;
+  color: #FCCA46;
 }
 .nav__link a:hover {
   color: #fff;
@@ -112,8 +111,8 @@ button {
 .form__heading {
   width: 100%;
   color: #fff;
-  text-shadow: 0.56rem 0.56rem #11af82;
-  background: #15DEA5;
+  text-shadow: 0.56rem 0.56rem #447a6a;
+  background: #569B87;
   line-height: 5rem;
   padding: 1.5rem;
 }
@@ -126,22 +125,22 @@ button {
 }
 .form__field input {
   width: 100%;
-  background: #ff0000;
-  border: 0.1rem solid #15DEA5;
+  background: #FCCA46;
+  border: 0.1rem solid #569B87;
   padding: 1.5rem;
   color: #D6FFF5;
   font-weight: 900;
   font-style: italic;
   font-size: 2.75rem;
-  border: 0.1rem solid #15DEA5;
-  background-color: #ff0000;
-  color: #15DEA5;
+  border: 0.1rem solid #569B87;
+  background-color: #FCCA46;
+  color: #569B87;
 }
 .form__field textarea {
   width: 100%;
-  color: #15DEA5;
-  background: #ff0000;
-  border: 0.1rem solid #15DEA5;
+  color: #569B87;
+  background: #FCCA46;
+  border: 0.1rem solid #569B87;
   outline: none;
   padding: 1.5rem;
   margin-bottom: 0.75rem;
@@ -156,7 +155,7 @@ button {
   margin: 2rem 6rem -3rem 6rem;
 }
 .quote strong {
-  color: #15DEA5;
+  color: #569B87;
 }
 
 .proj-grid {
@@ -199,7 +198,7 @@ button {
   cursor: pointer;
 }
 .proj-prev:hover > .proj-prev__heading {
-  background: #15DEA5;
+  background: #569B87;
 }
 .proj-prev:hover > .proj-prev__image {
   opacity: 1;
@@ -217,7 +216,7 @@ button {
 .about__heading {
   grid-area: heading;
   color: #fff;
-  text-shadow: 0.56rem 0.56rem #11af82;
+  text-shadow: 0.56rem 0.56rem #447a6a;
   text-align: right;
   padding-right: 1.5rem;
 }
@@ -228,7 +227,7 @@ button {
   overflow: hidden;
   width: 80%;
   border-radius: 1000rem;
-  border: 1.5rem solid #15DEA5;
+  border: 1.5rem solid #569B87;
 }
 .about__pic img {
   display: block;
@@ -243,14 +242,14 @@ button {
 }
 .about__btn {
   padding: 1.5rem;
-  border: 0.1rem solid #15DEA5;
-  color: #15DEA5;
-  background: #ff0000;
+  border: 0.1rem solid #569B87;
+  color: #569B87;
+  background: #FCCA46;
   cursor: pointer;
   grid-area: btn;
 }
 .about__btn:hover {
-  background: #15DEA5;
+  background: #569B87;
   color: #D6FFF5;
 }
 .about__btn--full-width {
@@ -291,7 +290,7 @@ button {
 }
 .project__synopsis h1 {
   color: #fff;
-  text-shadow: 0.56rem 0.56rem #11af82;
+  text-shadow: 0.56rem 0.56rem #447a6a;
 }
 .project__synopsis p {
   line-height: 2.5rem;
@@ -303,20 +302,20 @@ button {
   color: #fff;
 }
 .project__tags p strong {
-  color: #15DEA5;
+  color: #569B87;
   font-weight: 900;
   font-style: italic;
 }
 .project__btn {
   padding: 1.5rem;
-  border: 0.1rem solid #15DEA5;
-  color: #15DEA5;
-  background: #ff0000;
+  border: 0.1rem solid #569B87;
+  color: #569B87;
+  background: #FCCA46;
   cursor: pointer;
   grid-area: btn;
 }
 .project__btn:hover {
-  background: #15DEA5;
+  background: #569B87;
   color: #D6FFF5;
 }
 .project__btn--full-width {
