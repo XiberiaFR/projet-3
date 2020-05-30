@@ -44,3 +44,70 @@ button {
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Litoland';
+    src:url('./fonts/Litoland.ttf.woff') format('woff'),
+        url('./fonts/Litoland.ttf.svg#Litoland') format('svg'),
+        url('./fonts/Litoland.ttf.eot'),
+        url('./fonts/Litoland.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Devonshire-Regular';
+    src:url('./fonts/Devonshire-Regular.ttf.woff') format('woff'),
+        url('./fonts/Devonshire-Regular.ttf.svg#Devonshire-Regular') format('svg'),
+        url('./fonts/Devonshire-Regular.ttf.eot'),
+        url('./fonts/Devonshire-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Itim Regular';
+    src: url('./fonts/Itim-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: 'Dancing-Script-Regular';
+    src:url('./fonts/Dancing-Script-Regular.ttf.woff') format('woff'),
+        url('./fonts/Dancing-Script-Regular.ttf.svg#Dancing-Script-Regular') format('svg'),
+        url('./fonts/Dancing-Script-Regular.ttf.eot'),
+        url('./fonts/Dancing-Script-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Segoe-Print";
+    src:url("./fonts/Segoe-Print.eot"), 
+        url("./fonts/Segoe-Print.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/Segoe-Print.woff2") format("woff2"),
+        url("./fonts/Segoe-Print.woff") format("woff"),
+        url("./fonts/Segoe-Print.ttf") format("truetype"),
+        url("./fonts/Segoe-Print.svg#Segoe-Print") format("svg"); 
+}
+
+@font-face {
+    font-family: 'Kaushan-Script';
+    src:url('./fonts/Kaushan-Script.ttf.woff') format('woff'),
+        url('./fonts/Kaushan-Script.ttf.svg#Kaushan-Script') format('svg'),
+        url('./fonts/Kaushan-Script.ttf.eot'),
+        url('./fonts/Kaushan-Script.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trueno-Round';
+    src:url('./fonts/Trueno-Round.ttf.woff') format('woff'),
+        url('./fonts/Trueno-Round.ttf.svg#Trueno-Round') format('svg'),
+        url('./fonts/Trueno-Round.ttf.eot'),
+        url('./fonts/Trueno-Round.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

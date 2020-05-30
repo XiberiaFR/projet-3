@@ -29,9 +29,8 @@
         }
         &__title {
             font-size: 3rem;
-            font-family: cursive;
-            font-weight: 900;
             &--brown {
+                font-family: Devonshire-Regular;
                 color: #3C1218;
             }
             &--brownlight {
@@ -41,12 +40,15 @@
                 -webkit-text-fill-color: transparent;
             }
             &--blue {
+                font-family: Dancing-Script-Regular;
+                font-weight: 700;
                 background: linear-gradient(to right, rgba(20,73,229,1) 0%,rgba(108,178,249,1) 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
             &--green {
-                background: linear-gradient(to right, rgba(86,168,71,1) 0%,rgba(179,245,121,1) 70%,rgba(191,255,126,1) 100%);
+                font-family: Kaushan-Script;
+                background: linear-gradient(to right, rgba(62,146,58,1) 0%,rgba(190,255,127,1) 70%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
@@ -54,16 +56,20 @@
         &__subtitle {
             font-size: 4rem;
             &--brown {
+                font-family: Itim Regular;
+                font-style: italic;
                 color: #3C1218;
             }
             &--brownlight {
-                font-family: Croissant-One;
+                font-family: Litoland;
                 color: #C77412;
             }
             &--blue {
+                font-family: Segoe-Print;
                 color: #0887FB;
             }
             &--green {
+                font-family: Segoe-Print;
                 color: #72BF56;
             }
             &--uppercase {
@@ -97,7 +103,7 @@
     align-content: center;
     margin: 8% auto;
         &__text {
-            font-family: fantasy;
+            font-family: Trueno-Round;
             color: $colour-secondary;
             background-color: #569b87;
             border-radius: 15px;

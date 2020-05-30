@@ -103,6 +103,46 @@ button {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Litoland";
+  src: url("./fonts/Litoland.ttf.woff") format("woff"), url("./fonts/Litoland.ttf.svg#Litoland") format("svg"), url("./fonts/Litoland.ttf.eot"), url("./fonts/Litoland.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Devonshire-Regular";
+  src: url("./fonts/Devonshire-Regular.ttf.woff") format("woff"), url("./fonts/Devonshire-Regular.ttf.svg#Devonshire-Regular") format("svg"), url("./fonts/Devonshire-Regular.ttf.eot"), url("./fonts/Devonshire-Regular.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Itim Regular";
+  src: url("./fonts/Itim-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Dancing-Script-Regular";
+  src: url("./fonts/Dancing-Script-Regular.ttf.woff") format("woff"), url("./fonts/Dancing-Script-Regular.ttf.svg#Dancing-Script-Regular") format("svg"), url("./fonts/Dancing-Script-Regular.ttf.eot"), url("./fonts/Dancing-Script-Regular.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe-Print";
+  src: url("./fonts/Segoe-Print.eot"), url("./fonts/Segoe-Print.eot?#iefix") format("embedded-opentype"), url("./fonts/Segoe-Print.woff2") format("woff2"), url("./fonts/Segoe-Print.woff") format("woff"), url("./fonts/Segoe-Print.ttf") format("truetype"), url("./fonts/Segoe-Print.svg#Segoe-Print") format("svg");
+}
+@font-face {
+  font-family: "Kaushan-Script";
+  src: url("./fonts/Kaushan-Script.ttf.woff") format("woff"), url("./fonts/Kaushan-Script.ttf.svg#Kaushan-Script") format("svg"), url("./fonts/Kaushan-Script.ttf.eot"), url("./fonts/Kaushan-Script.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Trueno-Round";
+  src: url("./fonts/Trueno-Round.ttf.woff") format("woff"), url("./fonts/Trueno-Round.ttf.svg#Trueno-Round") format("svg"), url("./fonts/Trueno-Round.ttf.eot"), url("./fonts/Trueno-Round.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 .btn {
   padding: 1.5rem;
   border: 0.1rem solid #569B87;
@@ -134,6 +174,7 @@ button {
 }
 
 .footer {
+  font-family: Trueno-Round;
   background: #569B87;
   display: flex;
   justify-content: space-between;
@@ -229,10 +270,9 @@ button {
 }
 .menu__title {
   font-size: 3rem;
-  font-family: cursive;
-  font-weight: 900;
 }
 .menu__title--brown {
+  font-family: Devonshire-Regular;
   color: #3C1218;
 }
 .menu__title--brownlight {
@@ -242,12 +282,15 @@ button {
   -webkit-text-fill-color: transparent;
 }
 .menu__title--blue {
+  font-family: Dancing-Script-Regular;
+  font-weight: 700;
   background: linear-gradient(to right, #1449e5 0%, #6cb2f9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .menu__title--green {
-  background: linear-gradient(to right, #56a847 0%, #b3f579 70%, #bfff7e 100%);
+  font-family: Kaushan-Script;
+  background: linear-gradient(to right, #3e923a 0%, #beff7f 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -255,16 +298,20 @@ button {
   font-size: 4rem;
 }
 .menu__subtitle--brown {
+  font-family: Itim Regular;
+  font-style: italic;
   color: #3C1218;
 }
 .menu__subtitle--brownlight {
-  font-family: Croissant-One;
+  font-family: Litoland;
   color: #C77412;
 }
 .menu__subtitle--blue {
+  font-family: Segoe-Print;
   color: #0887FB;
 }
 .menu__subtitle--green {
+  font-family: Segoe-Print;
   color: #72BF56;
 }
 .menu__subtitle--uppercase {
@@ -296,7 +343,7 @@ button {
   margin: 8% auto;
 }
 .soonarea__text {
-  font-family: fantasy;
+  font-family: Trueno-Round;
   color: #FCCA46;
   background-color: #569b87;
   border-radius: 15px;
