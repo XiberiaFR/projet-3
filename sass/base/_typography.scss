@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'SpaceCapitan-Regular', sans-serif;
     color: $colour-primary;
     font-size: 2rem;
     font-weight: 100;
@@ -7,21 +7,40 @@ body {
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'SpaceCapitan-Regular', sans-serif;
     font-weight: 900;
     font-size: 5rem;
-    font-style: italic;
 }
 
 textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'SpaceCapitan-Regular', sans-serif;
     font-weight: 100;
     font-size: 2rem;
 }
 
 button {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'SpaceCapitan-Regular', sans-serif;
     font-weight: 900;
     font-style: italic;
     font-size: 2.75rem;
+}
+
+@font-face {
+    font-family: 'SpaceCapitan-Regular';
+    src:url('./fonts/SpaceCapitan-Regular.ttf.woff') format('woff'),
+        url('./fonts/SpaceCapitan-Regular.ttf.svg#SpaceCapitan-Regular') format('svg'),
+        url('./fonts/SpaceCapitan-Regular.ttf.eot'),
+        url('./fonts/SpaceCapitan-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Croissant-One';
+    src:url('./fonts/Croissant-One.ttf.woff') format('woff'),
+        url('./fonts/Croissant-One.ttf.svg#Croissant-One') format('svg'),
+        url('./fonts/Croissant-One.ttf.eot'),
+        url('./fonts/Croissant-One.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
 }
