@@ -1,0 +1,24 @@
+.menu{ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    align-content: center;
+        &__link {
+            width:50%;
+            text-decoration: none;
+            align-self: center;
+        }
+}
+
+.soonarea {
+    text-align: center;
+    width: 18%;
+    margin: auto;
+        &__text {
+            color: $colour-secondary;
+            background-color: #569b87;
+            border-radius: 15px;
+        }
+}

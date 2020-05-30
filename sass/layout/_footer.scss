@@ -1,0 +1,10 @@
+.footer {
+    background: $colour-primary;
+    display: flex;
+    justify-content: space-between;
+        &__link {
+            margin: auto 3%;
+            text-decoration: none;
+            color: $colour-secondary;
+        }
+}
