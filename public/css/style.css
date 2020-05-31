@@ -227,6 +227,10 @@ i.fas.fa-music {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+i.fas.fa-music.bottom {
+  font-size: 4rem;
+  margin: 0px 10px;
+}
 
 .menu-layout {
   font-family: Itim Regular;
@@ -239,11 +243,14 @@ i.fas.fa-music {
   letter-spacing: 1px;
 }
 .menu-layout__title {
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
 }
 .menu-layout__title--note {
   font-family: Devonshire-Regular;
+}
+.menu-layout__title--note.bottom {
+  font-size: 4rem;
 }
 .menu-layout__heading {
   display: flex;
@@ -287,6 +294,12 @@ i.fas.fa-music {
 .menu-layout__prix {
   width: 10%;
   text-align: right;
+}
+.menu-layout__bottomline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
 }
 
 .menu {

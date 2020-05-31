@@ -6,6 +6,10 @@ i {
         background: linear-gradient(to right, rgba(241,88,97,1) 0%,rgba(247,143,106,1) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        &.bottom {
+            font-size: 4rem;
+            margin: 0px 10px;
+        }
     }
 }
 
@@ -19,10 +23,13 @@ i {
     background-color: #FCDFDB;
     letter-spacing: 1px;
         &__title {
-            font-size: 4rem;
+            font-size: 5rem;
             text-align: center;
             &--note {
                 font-family: Devonshire-Regular;
+                &.bottom {
+                    font-size: 4rem;
+                }
             }
         }
         &__heading {
@@ -67,5 +74,11 @@ i {
         &__prix {
             width: 10%;
             text-align: right;
+        }
+        &__bottomline{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 70px;
         }
 }
