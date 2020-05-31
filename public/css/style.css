@@ -167,12 +167,29 @@ button {
   align-items: center;
   width: 100%;
 }
+.header a {
+  text-decoration: none;
+}
 .header__logo {
   font-family: SpaceCapitan-Regular;
   font-size: 5rem;
   color: #FCCA46;
 }
 
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: translate(1px, 1.5px) rotate(2deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: translate(-1.5px, -1px) rotate(-2deg);
+  }
+}
 .footer {
   font-family: Trueno-Round;
   background: #569B87;
@@ -185,9 +202,13 @@ button {
   z-index: 10;
 }
 .footer__link {
+  font-size: 2rem;
   margin: auto 3%;
   text-decoration: none;
   color: #FCCA46;
+}
+.footer__link:hover {
+  animation: wiggle 200ms infinite;
 }
 
 .container {
@@ -259,17 +280,23 @@ button {
 .menu__link--pink {
   background-color: #FCDFDB;
 }
+.menu__link--salmon {
+  background-color: #FFF5FE;
+}
+.menu__link--grey {
+  background-color: #F9F9F9;
+}
 .menu__link--zoom {
   transition-property: transform, opacity;
   transition-duration: 450ms;
   transition-timing-function: linear;
 }
 .menu__link--zoom:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   opacity: 0.7;
 }
 .menu__title {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .menu__title--brown {
   font-family: Devonshire-Regular;
@@ -277,6 +304,7 @@ button {
 }
 .menu__title--brownlight {
   font-family: Croissant-One;
+  font-size: 3rem;
   background: linear-gradient(to right, #d8852e 0%, #905bfd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -347,7 +375,7 @@ button {
   color: #FCCA46;
   background-color: #569b87;
   border-radius: 15px;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding: 10px 50px;
 }
 .soonarea span {

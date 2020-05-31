@@ -17,24 +17,31 @@
             &--pink{
                 background-color: #FCDFDB;
             }
+            &--salmon {
+                background-color: #FFF5FE;
+            }
+            &--grey {
+                background-color: #F9F9F9;
+            }
             &--zoom {
                 transition-property: transform, opacity;
                 transition-duration: 450ms;
                 transition-timing-function: linear;
             }
             &--zoom:hover {
-                transform: scale(1.3);
+                transform: scale(1.1);
                 opacity: 0.7;
             }
         }
         &__title {
-            font-size: 3rem;
+            font-size: 4rem;
             &--brown {
                 font-family: Devonshire-Regular;
                 color: #3C1218;
             }
             &--brownlight {
                 font-family: Croissant-One;
+                font-size: 3rem;
                 background: linear-gradient(to right, rgba(216,133,46,1) 0%,rgba(144,91,253,1) 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -107,7 +114,7 @@
             color: $colour-secondary;
             background-color: #569b87;
             border-radius: 15px;
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             padding: 10px 50px;
         }
         & span {

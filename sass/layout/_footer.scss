@@ -1,3 +1,10 @@
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   25% { transform: translate(1px, 1.5px) rotate(2deg); }
+   50% { transform: rotate(0deg); }
+   100% { transform: translate(-1.5px, -1px) rotate(-2deg); }
+}
+
 .footer {
     font-family: Trueno-Round;
     background: $colour-primary;
@@ -9,8 +16,12 @@
     bottom: 0;
     z-index: 10;
         &__link {
+            font-size: 2rem;
             margin: auto 3%;
             text-decoration: none;
             color: $colour-secondary;
+            &:hover {
+                animation: wiggle 200ms infinite;
+            }
         }
 }

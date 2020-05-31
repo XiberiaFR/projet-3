@@ -4,7 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;   
+    width: 100%;
+    a {
+        text-decoration: none;
+    }   
     &__logo {
         font-family: SpaceCapitan-Regular;
         font-size: 5rem;
