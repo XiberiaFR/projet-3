@@ -64,6 +64,10 @@ body {
   background: #fff;
 }
 
+:root {
+  font-size: 8px;
+}
+
 body {
   font-family: "SpaceCapitan-Regular", sans-serif;
   color: #569B87;
@@ -143,22 +147,6 @@ button {
   font-weight: normal;
   font-style: normal;
 }
-.btn {
-  padding: 1.5rem;
-  border: 0.1rem solid #569B87;
-  color: #569B87;
-  background: #FCCA46;
-  cursor: pointer;
-}
-.btn:hover {
-  background: #569B87;
-  color: #D6FFF5;
-}
-.btn--full-width {
-  width: 100%;
-  margin: 0 auto;
-}
-
 .header {
   background: #569B87;
   height: 10rem;
@@ -233,14 +221,34 @@ i.fas.fa-music.bottom {
 }
 
 .menu-layout {
-  font-family: Itim Regular;
-  color: #3C1218;
   margin: 70px auto;
   padding: 70px 5%;
   width: 80%;
   box-shadow: 0px 0px 20px 0px #DFDFDF;
-  background-color: #FCDFDB;
   letter-spacing: 1px;
+}
+.menu-layout--note {
+  font-family: Itim Regular;
+  color: #3C1218;
+  background-color: #FCDFDB;
+  font-size: 2rem;
+}
+.menu-layout--chic {
+  font-family: Litoland;
+  background-color: #FFF5FE;
+  font-size: 1.8rem;
+}
+.menu-layout--papilles {
+  font-family: Segoe-Print;
+  background-color: #EDEFEF;
+  font-size: 1.8rem;
+  color: black;
+}
+.menu-layout--palette {
+  font-family: Segoe-Print;
+  color: #72BF56;
+  font-size: 1.8rem;
+  color: black;
 }
 .menu-layout__title {
   font-size: 5rem;
@@ -251,6 +259,26 @@ i.fas.fa-music.bottom {
 }
 .menu-layout__title--note.bottom {
   font-size: 4rem;
+}
+.menu-layout__title--chic {
+  font-family: Croissant-One;
+  font-size: 4rem;
+  background: linear-gradient(to right, #d8852e 0%, #905bfd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu-layout__title--papilles {
+  font-family: Dancing-Script-Regular;
+  font-weight: 700;
+  background: linear-gradient(to right, #1449e5 0%, #6cb2f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu-layout__title--palette {
+  font-family: Kaushan-Script;
+  background: linear-gradient(to right, #3e923a 0%, #beff7f 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menu-layout__heading {
   display: flex;
@@ -283,6 +311,48 @@ i.fas.fa-music.bottom {
 .menu-layout__subtitle--note:hover:after {
   transform: scaleX(1);
 }
+.menu-layout__subtitle--chic {
+  font-size: 2rem;
+}
+.menu-layout__subtitle--chic:after {
+  content: "";
+  display: block;
+  border-bottom: solid 2px;
+  transform: scaleX(0);
+  transition: 300ms;
+  transform-origin: 0% 50%;
+}
+.menu-layout__subtitle--chic:hover:after {
+  transform: scaleX(1);
+}
+.menu-layout__subtitle--papilles {
+  font-size: 2.2rem;
+}
+.menu-layout__subtitle--papilles:after {
+  content: "";
+  display: block;
+  border-bottom: solid 2px;
+  transform: scaleX(0);
+  transition: 300ms;
+  transform-origin: 0% 50%;
+}
+.menu-layout__subtitle--papilles:hover:after {
+  transform: scaleX(1);
+}
+.menu-layout__subtitle--palette {
+  font-size: 2.2rem;
+}
+.menu-layout__subtitle--palette:after {
+  content: "";
+  display: block;
+  border-bottom: solid 2px;
+  transform: scaleX(0);
+  transition: 300ms;
+  transform-origin: 0% 50%;
+}
+.menu-layout__subtitle--palette:hover:after {
+  transform: scaleX(1);
+}
 .menu-layout__details {
   display: flex;
   justify-content: space-between;
@@ -300,6 +370,15 @@ i.fas.fa-music.bottom {
   justify-content: center;
   align-items: center;
   margin-top: 70px;
+}
+.menu-layout__appetizer--chic {
+  color: #C77412;
+}
+.menu-layout__dish--chic {
+  color: #A56799;
+}
+.menu-layout__sweets--chic {
+  color: #6E4CCC;
 }
 
 .menu {
@@ -434,6 +513,11 @@ i.fas.fa-music.bottom {
   animation-delay: 0.4s;
 }
 
+@media (max-width: 860px) {
+  :root {
+    font-size: 6px;
+  }
+}
 .legal-terms {
   font-family: Trueno-Round;
   width: 90%;
@@ -458,69 +542,6 @@ i.fas.fa-music.bottom {
 }
 .legal-terms > h3 {
   margin-top: 20px;
-}
-
-.project {
-  width: 100%;
-  margin-bottom: 1.8rem;
-  display: grid;
-  grid-template-columns: 5fr 3fr;
-  grid-template-rows: repeat(3, auto);
-  grid-gap: 1.5rem;
-  grid-template-areas: "image synopsis" "tags synopsis" "btn btn";
-}
-.project__image {
-  grid-area: image;
-  width: 100%;
-  display: block;
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
-}
-.project__image img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  transform: translate(-50%, -50%);
-}
-.project__synopsis {
-  grid-area: synopsis;
-  padding-left: 1.5rem;
-}
-.project__synopsis h1 {
-  color: #fff;
-  text-shadow: 0.56rem 0.56rem #447a6a;
-}
-.project__synopsis p {
-  line-height: 2.5rem;
-}
-.project__tags {
-  grid-area: tags;
-}
-.project__tags p {
-  color: #fff;
-}
-.project__tags p strong {
-  color: #569B87;
-  font-weight: 900;
-  font-style: italic;
-}
-.project__btn {
-  padding: 1.5rem;
-  border: 0.1rem solid #569B87;
-  color: #569B87;
-  background: #FCCA46;
-  cursor: pointer;
-  grid-area: btn;
-}
-.project__btn:hover {
-  background: #569B87;
-  color: #D6FFF5;
-}
-.project__btn--full-width {
-  width: 100%;
-  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
