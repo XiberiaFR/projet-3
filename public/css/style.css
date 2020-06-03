@@ -381,6 +381,13 @@ i.fas.fa-music.bottom {
   color: #6E4CCC;
 }
 
+.underheader {
+  margin-top: 100px;
+}
+.underheader__title {
+  text-align: center;
+}
+
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -393,9 +400,6 @@ i.fas.fa-music.bottom {
   width: 40%;
   height: 100vh;
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   box-shadow: 0px 0px 20px 0px #DFDFDF;
   margin: 4%;
 }
@@ -409,6 +413,10 @@ i.fas.fa-music.bottom {
   background-color: #F9F9F9;
 }
 .menu__link--zoom {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   transition-property: transform, opacity;
   transition-duration: 450ms;
   transition-timing-function: linear;

@@ -179,3 +179,10 @@ i {
             }
         }
 }
+
+.underheader {
+    margin-top: 100px;
+    &__title {
+        text-align: center;
+    }
+}
