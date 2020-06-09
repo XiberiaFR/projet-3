@@ -410,14 +410,14 @@ i.fas.fa-music.bottom {
 }
 .menu__link {
   width: 40%;
-  height: 100vh;
+  height: 600px;
   text-decoration: none;
   box-shadow: 0px 0px 20px 0px #DFDFDF;
   margin: 4%;
 }
 @media (max-width: 1096px) {
   .menu__link {
-    height: 50vh;
+    height: 300pxvh;
   }
 }
 @media (max-width: 490px) {
