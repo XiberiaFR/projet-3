@@ -127,7 +127,7 @@ i {
                 &:after {
                     content: "";
                     display: block;
-                    border-bottom: solid 2px;
+                    border-bottom: solid 2px #0228DD;
                     transform: scaleX(0);
                     transition: 300ms;
                     transform-origin: 0% 50%;
@@ -141,7 +141,7 @@ i {
                 &:after {
                     content: "";
                     display: block;
-                    border-bottom: solid 2px;
+                    border-bottom: solid 2px #ACEF75;
                     transform: scaleX(0);
                     transition: 300ms;
                     transform-origin: 0% 50%;

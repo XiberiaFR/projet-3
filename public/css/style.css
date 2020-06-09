@@ -47,14 +47,6 @@ table {
   border-spacing: 0;
 }
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
 body {
   box-sizing: border-box;
   background: #fff;
@@ -95,53 +87,59 @@ button {
 
 @font-face {
   font-family: "SpaceCapitan-Regular";
-  src: url("./fonts/SpaceCapitan-Regular.ttf.woff") format("woff"), url("./fonts/SpaceCapitan-Regular.ttf.svg#SpaceCapitan-Regular") format("svg"), url("./fonts/SpaceCapitan-Regular.ttf.eot"), url("./fonts/SpaceCapitan-Regular.ttf.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/SpaceCapitan-Regular.ttf.woff") format("woff"), url("../fonts/SpaceCapitan-Regular.ttf.svg#SpaceCapitan-Regular") format("svg"), url("../fonts/SpaceCapitan-Regular.ttf.eot"), url("../fonts/SpaceCapitan-Regular.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Croissant-One";
-  src: url("./fonts/Croissant-One.ttf.woff") format("woff"), url("./fonts/Croissant-One.ttf.svg#Croissant-One") format("svg"), url("./fonts/Croissant-One.ttf.eot"), url("./fonts/Croissant-One.ttf.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Croissant-One.ttf.woff") format("woff"), url("../fonts/Croissant-One.ttf.svg#Croissant-One") format("svg"), url("../fonts/Croissant-One.ttf.eot"), url("../fonts/Croissant-One.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Litoland";
-  src: url("./fonts/Litoland.ttf.woff") format("woff"), url("./fonts/Litoland.ttf.svg#Litoland") format("svg"), url("./fonts/Litoland.ttf.eot"), url("./fonts/Litoland.ttf.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Litoland.ttf.woff") format("woff"), url("../fonts/Litoland.ttf.svg#Litoland") format("svg"), url("../fonts/Litoland.ttf.eot"), url("../fonts/Litoland.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Devonshire-Regular";
-  src: url("./fonts/Devonshire-Regular.ttf.woff") format("woff"), url("./fonts/Devonshire-Regular.ttf.svg#Devonshire-Regular") format("svg"), url("./fonts/Devonshire-Regular.ttf.eot"), url("./fonts/Devonshire-Regular.ttf.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Devonshire-Regular.ttf.woff") format("woff"), url("../fonts/Devonshire-Regular.ttf.svg#Devonshire-Regular") format("svg"), url("../fonts/Devonshire-Regular.ttf.eot"), url("../fonts/Devonshire-Regular.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Itim Regular";
-  src: url("./fonts/Itim-Regular.woff") format("woff");
+  src: url("../fonts/Itim-Regular.woff") format("woff");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Dancing-Script-Regular";
-  src: url("./fonts/Dancing-Script-Regular.ttf.woff") format("woff"), url("./fonts/Dancing-Script-Regular.ttf.svg#Dancing-Script-Regular") format("svg"), url("./fonts/Dancing-Script-Regular.ttf.eot"), url("./fonts/Dancing-Script-Regular.ttf.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Dancing-Script-Regular.ttf.woff") format("woff"), url("../fonts/Dancing-Script-Regular.ttf.svg#Dancing-Script-Regular") format("svg"), url("../fonts/Dancing-Script-Regular.ttf.eot"), url("../fonts/Dancing-Script-Regular.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Segoe-Print";
-  src: url("./fonts/Segoe-Print.eot"), url("./fonts/Segoe-Print.eot?#iefix") format("embedded-opentype"), url("./fonts/Segoe-Print.woff2") format("woff2"), url("./fonts/Segoe-Print.woff") format("woff"), url("./fonts/Segoe-Print.ttf") format("truetype"), url("./fonts/Segoe-Print.svg#Segoe-Print") format("svg");
+  src: url("../fonts/Segoe-Print.eot"), url("../fonts/Segoe-Print.eot?#iefix") format("embedded-opentype"), url("../fonts/Segoe-Print.woff2") format("woff2"), url("../fonts/Segoe-Print.woff") format("woff"), url("../fonts/Segoe-Print.ttf") format("truetype"), url("../fonts/Segoe-Print.svg#Segoe-Print") format("svg");
 }
 @font-face {
   font-family: "Kaushan-Script";
-  src: url("./fonts/Kaushan-Script.ttf.woff") format("woff"), url("./fonts/Kaushan-Script.ttf.svg#Kaushan-Script") format("svg"), url("./fonts/Kaushan-Script.ttf.eot"), url("./fonts/Kaushan-Script.ttf.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Kaushan-Script.ttf.woff") format("woff"), url("../fonts/Kaushan-Script.ttf.svg#Kaushan-Script") format("svg"), url("../fonts/Kaushan-Script.ttf.eot"), url("../fonts/Kaushan-Script.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Trueno-Round";
-  src: url("./fonts/Trueno-Round.ttf.woff") format("woff"), url("./fonts/Trueno-Round.ttf.svg#Trueno-Round") format("svg"), url("./fonts/Trueno-Round.ttf.eot"), url("./fonts/Trueno-Round.ttf.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Trueno-Round.ttf.woff") format("woff"), url("../fonts/Trueno-Round.ttf.svg#Trueno-Round") format("svg"), url("../fonts/Trueno-Round.ttf.eot"), url("../fonts/Trueno-Round.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Alte-Haas-Grotesk-Bold";
+  src: url("../fonts/Alte-Haas-Grotesk-Bold.ttf.woff") format("woff"), url("../fonts/Alte-Haas-Grotesk-Bold.ttf.svg#Alte-Haas-Grotesk-Bold") format("svg"), url("../fonts/Alte-Haas-Grotesk-Bold.ttf.eot"), url("../fonts/Alte-Haas-Grotesk-Bold.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -186,21 +184,16 @@ button {
   position: fixed;
   bottom: 0;
   z-index: 10;
+  border-top: 2px solid #A1C181;
 }
 .footer__link {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: auto 3%;
   text-decoration: none;
   color: #FCCA46;
 }
 .footer__link:hover {
   animation: wiggle 200ms infinite;
-}
-
-.container {
-  margin: 6rem;
-  padding: 1.5rem 1.5rem 0 1.5rem;
-  border: 0.1rem solid #D6FFF5;
 }
 
 i {
@@ -339,7 +332,7 @@ i.fas.fa-music.bottom {
 .menu-layout__subtitle--papilles:after {
   content: "";
   display: block;
-  border-bottom: solid 2px;
+  border-bottom: solid 2px #0228DD;
   transform: scaleX(0);
   transition: 300ms;
   transform-origin: 0% 50%;
@@ -353,7 +346,7 @@ i.fas.fa-music.bottom {
 .menu-layout__subtitle--palette:after {
   content: "";
   display: block;
-  border-bottom: solid 2px;
+  border-bottom: solid 2px #ACEF75;
   transform: scaleX(0);
   transition: 300ms;
   transform-origin: 0% 50%;
@@ -399,7 +392,7 @@ i.fas.fa-music.bottom {
 .menu {
   display: flex;
   flex-wrap: wrap;
-  width: 95%;
+  width: 80%;
   margin: 10px auto;
   text-align: center;
   justify-content: center;
