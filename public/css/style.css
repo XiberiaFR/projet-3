@@ -238,13 +238,13 @@ i.fas.fa-music.bottom {
   font-family: Segoe-Print;
   background-color: #EDEFEF;
   font-size: 1.8rem;
-  color: black;
+  color: #000000;
 }
 .menu-layout--palette {
   font-family: Segoe-Print;
   color: #72BF56;
   font-size: 1.8rem;
-  color: black;
+  color: #000000;
 }
 .menu-layout__title {
   font-size: 5rem;
@@ -387,7 +387,7 @@ i.fas.fa-music.bottom {
 }
 .underheader__title {
   text-align: center;
-  color: black;
+  color: #000000;
   font-size: 4rem;
   font-family: Alte-Haas-Grotesk-Bold;
 }
@@ -558,14 +558,14 @@ i.fas.fa-music.bottom {
   margin: 100px auto;
 }
 .legal-terms > p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .legal-terms > p > a {
   text-decoration: none;
   color: inherit;
 }
 .legal-terms > ul {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .legal-terms > ul > li > a {
   text-decoration: none;

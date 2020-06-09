@@ -37,13 +37,13 @@ i {
             font-family: Segoe-Print;
             background-color: #EDEFEF;
             font-size: 1.8rem;
-            color: black;
+            color: $colour-black;
         }
         &--palette {
             font-family: Segoe-Print;
             color: #72BF56;
             font-size: 1.8rem;
-            color: black;
+            color: $colour-black;
         }
         &__title {
             font-size: 5rem;
@@ -190,7 +190,7 @@ i {
     margin-top: 100px;
     &__title {
         text-align: center;
-        color: black;
+        color: $colour-black;
         font-size: 4rem;
         font-family: Alte-Haas-Grotesk-Bold;
     }
