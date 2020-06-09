@@ -28,6 +28,11 @@ body {
 :root {
   font-size: 8px;
 }
+@media (max-width: 860px) {
+  :root {
+    font-size: 6px;
+  }
+}
 
 body {
   font-family: "SpaceCapitan-Regular", sans-serif;
@@ -499,11 +504,6 @@ i.fas.fa-music.bottom {
   animation-delay: 0.4s;
 }
 
-@media (max-width: 860px) {
-  :root {
-    font-size: 6px;
-  }
-}
 .legal-terms {
   font-family: Trueno-Round;
   width: 90%;
