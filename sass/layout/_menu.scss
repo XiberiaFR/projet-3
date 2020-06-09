@@ -20,7 +20,7 @@ i {
     box-shadow: 0px 0px 20px 0px #DFDFDF;
     letter-spacing: 1px;
     @media (max-width: 868px) {
-        width: 90%;
+        width: 85%;
     }
         &--note {
             font-family: Itim Regular;
@@ -190,5 +190,8 @@ i {
     margin-top: 100px;
     &__title {
         text-align: center;
+        color: black;
+        font-size: 4rem;
+        font-family: Alte-Haas-Grotesk-Bold;
     }
 }

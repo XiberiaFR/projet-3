@@ -220,7 +220,7 @@ i.fas.fa-music.bottom {
 }
 @media (max-width: 868px) {
   .menu-layout {
-    width: 90%;
+    width: 85%;
   }
 }
 .menu-layout--note {
@@ -387,6 +387,9 @@ i.fas.fa-music.bottom {
 }
 .underheader__title {
   text-align: center;
+  color: black;
+  font-size: 4rem;
+  font-family: Alte-Haas-Grotesk-Bold;
 }
 
 .menu {
