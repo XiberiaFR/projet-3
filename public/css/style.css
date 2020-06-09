@@ -417,7 +417,7 @@ i.fas.fa-music.bottom {
 }
 @media (max-width: 1096px) {
   .menu__link {
-    height: 300pxvh;
+    height: 400px;
   }
 }
 @media (max-width: 490px) {
