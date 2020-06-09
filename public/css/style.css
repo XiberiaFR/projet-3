@@ -448,7 +448,7 @@ i.fas.fa-music.bottom {
   transition-timing-function: linear;
 }
 .menu__link--zoom:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   opacity: 0.7;
 }
 .menu__title {
