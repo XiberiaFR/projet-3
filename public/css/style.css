@@ -405,6 +405,7 @@ i.fas.fa-music.bottom {
 @media (max-width: 490px) {
   .menu {
     flex-direction: column;
+    margin: 0 auto;
   }
 }
 .menu__link {
