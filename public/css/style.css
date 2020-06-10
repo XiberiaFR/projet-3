@@ -417,6 +417,7 @@ i.fas.fa-music.bottom {
 .menu__title--brownlight {
   font-family: Croissant-One;
   font-size: 3rem;
+  padding: 0 20px;
   background: linear-gradient(to right, #d8852e 0%, #905bfd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
