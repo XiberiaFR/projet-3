@@ -3,9 +3,7 @@ i {
     text-align: center;
     &.fas.fa-music {
         display: block;
-        background: linear-gradient(to right, rgba(241,88,97,1) 48%,rgba(247,143,106,1) 52%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        @include gradientnote;
         &.bottom {
             font-size: 4rem;
             margin: 0px 10px;
