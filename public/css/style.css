@@ -106,6 +106,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  border-bottom: 2px solid #A1C181;
 }
 .header a {
   text-decoration: none;
