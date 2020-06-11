@@ -11,11 +11,10 @@
         align-content: center;
     }
         &__link {
-            width:40%;
             text-decoration: none;
             box-shadow: 0px 0px 20px 0px #DFDFDF;
             margin: 2%;
-            width: 35vw;
+            width: 30vw;
             position: relative;
             padding-bottom: 50.25%;
             @media (max-width: 490px) {
@@ -55,11 +54,12 @@
             &--brown {
                 font-family: Devonshire-Regular;
                 color: #3C1218;
+                @include responsivepadding;
             }
             &--brownlight {
                 font-family: Croissant-One;
                 font-size: 3rem;
-                padding: 0 20px;
+                @include responsivepadding;
                 background: linear-gradient(to right, rgba(216,133,46,1) 40%,rgba(144,91,253,1) 52%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -67,12 +67,14 @@
             &--blue {
                 font-family: Dancing-Script-Regular;
                 font-weight: 700;
+                @include responsivepadding;
                 background: linear-gradient(to right, rgba(20,73,229,1) 0%,rgba(108,178,249,1) 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
             &--green {
                 font-family: Kaushan-Script;
+                @include responsivepadding;
                 background: linear-gradient(to right, rgba(62,146,58,1) 0%,rgba(190,255,127,1) 70%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;

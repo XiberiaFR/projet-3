@@ -12,9 +12,9 @@ i {
 }
 
 .menu-layout {
-    margin: 70px auto;
+    margin: 20px auto;
     padding: 70px 5%;
-    width: 80%;
+    width: 60%;
     box-shadow: 0px 0px 20px 0px #DFDFDF;
     letter-spacing: 1px;
     @media (max-width: 868px) {
@@ -77,7 +77,7 @@ i {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin: 70px auto;
+            margin: 20px auto;
         }
         &__img {
             width: 32%;
@@ -152,7 +152,7 @@ i {
         &__details {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         &__plat {
             width: 90%;

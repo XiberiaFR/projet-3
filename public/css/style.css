@@ -169,9 +169,9 @@ i.fas.fa-music.bottom {
 }
 
 .menu-layout {
-  margin: 70px auto;
+  margin: 20px auto;
   padding: 70px 5%;
-  width: 80%;
+  width: 60%;
   box-shadow: 0px 0px 20px 0px #DFDFDF;
   letter-spacing: 1px;
 }
@@ -237,7 +237,7 @@ i.fas.fa-music.bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 70px auto;
+  margin: 20px auto;
 }
 .menu-layout__img {
   width: 32%;
@@ -314,7 +314,7 @@ i.fas.fa-music.bottom {
 .menu-layout__details {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .menu-layout__plat {
   width: 90%;
@@ -365,11 +365,10 @@ i.fas.fa-music.bottom {
   }
 }
 .menu__link {
-  width: 40%;
   text-decoration: none;
   box-shadow: 0px 0px 20px 0px #DFDFDF;
   margin: 2%;
-  width: 35vw;
+  width: 30vw;
   position: relative;
   padding-bottom: 50.25%;
 }
@@ -412,6 +411,7 @@ i.fas.fa-music.bottom {
 .menu__title--brown {
   font-family: Devonshire-Regular;
   color: #3C1218;
+  padding: 0 20px;
 }
 .menu__title--brownlight {
   font-family: Croissant-One;
@@ -424,12 +424,14 @@ i.fas.fa-music.bottom {
 .menu__title--blue {
   font-family: Dancing-Script-Regular;
   font-weight: 700;
+  padding: 0 20px;
   background: linear-gradient(to right, #1449e5 0%, #6cb2f9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .menu__title--green {
   font-family: Kaushan-Script;
+  padding: 0 20px;
   background: linear-gradient(to right, #3e923a 0%, #beff7f 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
