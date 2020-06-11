@@ -244,7 +244,7 @@ i.fas.fa-music.bottom {
 .menu-layout__img--right {
   transform: scaleX(-1);
 }
-@media (max-width: 1068px) {
+@media (max-width: 680px) {
   .menu-layout__img {
     width: 22%;
   }
