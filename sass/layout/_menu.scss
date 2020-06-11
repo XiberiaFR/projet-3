@@ -3,7 +3,7 @@ i {
     text-align: center;
     &.fas.fa-music {
         display: block;
-        background: linear-gradient(to right, rgba(241,88,97,1) 0%,rgba(247,143,106,1) 100%);
+        background: linear-gradient(to right, rgba(241,88,97,1) 48%,rgba(247,143,106,1) 52%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         &.bottom {
@@ -57,7 +57,7 @@ i {
             &--chic {
                 font-family: Croissant-One;
                 font-size: 4rem;
-                background: linear-gradient(to right, rgba(216,133,46,1) 0%,rgba(144,91,253,1) 100%);
+                background: linear-gradient(to right, rgba(216,133,46,1) 40%,rgba(144,91,253,1) 52%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }

@@ -158,7 +158,7 @@ i {
 }
 i.fas.fa-music {
   display: block;
-  background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
+  background: linear-gradient(to right, #f15861 48%, #f78f6a 52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -215,7 +215,7 @@ i.fas.fa-music.bottom {
 .menu-layout__title--chic {
   font-family: Croissant-One;
   font-size: 4rem;
-  background: linear-gradient(to right, #d8852e 0%, #905bfd 100%);
+  background: linear-gradient(to right, #d8852e 40%, #905bfd 52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -416,7 +416,7 @@ i.fas.fa-music.bottom {
   font-family: Croissant-One;
   font-size: 3rem;
   padding: 0 20px;
-  background: linear-gradient(to right, #d8852e 0%, #905bfd 100%);
+  background: linear-gradient(to right, #d8852e 40%, #905bfd 52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -458,7 +458,7 @@ i.fas.fa-music.bottom {
 }
 .menu .fas.fa-music {
   font-size: 6rem;
-  background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
+  background: linear-gradient(to right, #f15861 48%, #f78f6a 52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
