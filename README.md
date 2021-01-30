@@ -1,6 +1,6 @@
     1 - Description du projet
-Projet 3 pour cursus Openclassrooms - Réalisation d'un site web responsive en utilisant Sass
-Plateforme de présentation de menus des restaurants.
+Réalisation d'un site web responsive en utilisant Sass
+Plateforme de présentation de menus des restaurants. Projet 3 pour cursus Openclassrooms - 
 
     2 - Pré-requis
 Git
